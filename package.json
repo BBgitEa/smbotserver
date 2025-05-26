@@ -1,0 +1,19 @@
+{
+  "name": "smbotserver",
+  "version": "0.0.4",
+  "description": "A server for SMBot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^0.8.0",
+    "luxon": "^3.6.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "sqlite3": "^5.1.7"
+  },
+  "type": "module"
+}
